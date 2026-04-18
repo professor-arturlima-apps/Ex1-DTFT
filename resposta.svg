@@ -1,0 +1,61 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#1a1a1a" rx="10"/>
+  
+  <line x1="40" y1="200" x2="360" y2="200" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="40" x2="50" y2="210" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <text x="370" y="205" fill="#ffffff" font-family="monospace" font-size="12">n</text>
+  <text x="35" y="30" fill="#ffffff" font-family="monospace" font-size="12">h[n]</text>
+
+  <g stroke-linecap="round">
+    <g>
+      <line x1="70" y1="200" x2="70" y2="200" stroke="#00eeff" stroke-width="3">
+        <animate attributeName="y2" from="200" to="80" dur="0.5s" begin="0s" fill="freeze" />
+      </line>
+      <circle cx="70" cy="200" r="4" fill="#f1da08">
+        <animate attributeName="cy" from="200" to="80" dur="0.5s" begin="0s" fill="freeze" />
+      </circle>
+    </g>
+
+    <g>
+      <line x1="110" y1="200" x2="110" y2="200" stroke="#00eeff" stroke-width="3">
+        <animate attributeName="y2" from="200" to="80" dur="0.5s" begin="0.5s" fill="freeze" />
+      </line>
+      <circle cx="110" cy="200" r="4" fill="#f1da08">
+        <animate attributeName="cy" from="200" to="80" dur="0.5s" begin="0.5s" fill="freeze" />
+      </circle>
+    </g>
+
+    <g>
+      <line x1="150" y1="200" x2="150" y2="200" stroke="#00eeff" stroke-width="3">
+        <animate attributeName="y2" from="200" to="110" dur="0.5s" begin="1s" fill="freeze" />
+      </line>
+      <circle cx="150" cy="200" r="4" fill="#f1da08">
+        <animate attributeName="cy" from="200" to="110" dur="0.5s" begin="1s" fill="freeze" />
+      </circle>
+    </g>
+
+    <g>
+      <line x1="190" y1="200" x2="190" y2="200" stroke="#00eeff" stroke-width="3">
+        <animate attributeName="y2" from="200" to="140" dur="0.5s" begin="1.5s" fill="freeze" />
+      </line>
+      <circle cx="190" cy="200" r="4" fill="#f1da08">
+        <animate attributeName="cy" from="200" to="140" dur="0.5s" begin="1.5s" fill="freeze" />
+      </circle>
+    </g>
+
+    <g>
+      <line x1="230" y1="200" x2="230" y2="200" stroke="#00eeff" stroke-width="3">
+        <animate attributeName="y2" from="200" to="163" dur="0.5s" begin="2s" fill="freeze" />
+      </line>
+      <circle cx="230" cy="200" r="4" fill="#f1da08">
+        <animate attributeName="cy" from="200" to="163" dur="0.5s" begin="2s" fill="freeze" />
+      </circle>
+    </g>
+  </g>
+
+  <text x="280" y="60" fill="#43e911" font-family="monospace" font-size="10" opacity="0">
+    Filtro Passa-Baixas
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.5s" fill="freeze" />
+  </text>
+</svg>
+
